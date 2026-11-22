@@ -108,7 +108,7 @@ Then the header at the top indicates that they are back in the TARDIS Console Ro
 Given the user has navigated to the Project Workshop
 When they enter "view personal website" and press "GO"
 Then a blurb about the project is outputted
-Then there is a link to https://github.com/cBridges851/cBridges851.github.io/
+Then there is a link to https://github.com/christabridges/christabridges.github.io/
 ```
 
 ### S9 - Empty command
@@ -233,7 +233,7 @@ and point `baseURL` at `http://localhost:8080`.
   | S5 | `window.__openedUrls` contains `youtube.com/watch?v=dQw4w9WgXcQ`; output contains `Of course! I'd never let you down`. |
   | S6 | `locationHeader` text `Project Workshop`; output contains `Key projects` and `personal website`. |
   | S7 | `locationHeader` text `TARDIS Console Room`. |
-  | S8 | Output contains `The site you're looking at now` and a link with href `https://github.com/cBridges851/cBridges851.github.io/`. |
+  | S8 | Output contains `The site you're looking at now` and a link with href `https://github.com/christabridges/christabridges.github.io/`. |
   | S9 | Output contains `Sorry, I'm not sure what you mean` (empty input). |
   | S10 | Output contains `Go where?` (or `Try 'help'`). |
   | S11 | Output contains `View what?` (or `Try 'list'`). |
@@ -331,7 +331,7 @@ test.describe('Console', () => {
     await page.getByTestId('submit-button').click();
     const output = page.getByTestId('console-output');
     await expect(output).toContainText('The site you're looking at now');
-    await expect(output.locator('a[href="https://github.com/cBridges851/cBridges851.github.io/"]')).toBeVisible();
+    await expect(output.locator('a[href="https://github.com/christabridges/christabridges.github.io/"]')).toBeVisible();
   });
 });
 ```
