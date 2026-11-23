@@ -5,7 +5,11 @@ test.describe('Console', () => {
     const errors: string[] = [];
     (page as any).__consoleErrors = errors;
     page.on('console', (msg) => {
-      if (msg.type() === 'error') errors.push(msg.text());
+      if (msg.type() === 'error') {
+        const url = msg.location().url ?? '';
+        if (url.includes('dotnet-browser-tools/hot-reload-settings.json')) return;
+        errors.push(msg.text());
+      }
     });
     page.on('pageerror', (err) => errors.push(err.message));
 
