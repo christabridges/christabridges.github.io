@@ -116,7 +116,7 @@ test.describe('Console', () => {
     await submit(page, 'view personal website');
     await expect(output(page)).toContainText('> view personal website');
     await expect(output(page)).toContainText("The site you're looking at now");
-    await expect(output(page).locator('a[href="https://github.com/cBridges851/cBridges851.github.io/"]')).toBeVisible();
+    await expect(output(page).locator('a[href="https://github.com/christabridges/christabridges.github.io/"]')).toBeVisible();
     assertNoConsoleErrors(page);
   });
 

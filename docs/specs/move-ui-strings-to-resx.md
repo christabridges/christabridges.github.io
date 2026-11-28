@@ -73,7 +73,7 @@ Values are stored verbatim (including HTML) unless noted. `{0}`, `{1}` are compo
 | `Workshop.Description` | Workshop intro + `{0}` project list + exits | Workshop.cs | `{0}` = `ListKeyProjects()` output |
 | `Workshop.KeyProjectsHeader` | `Key projects:` | Workshop.cs | part of `ListKeyProjects` |
 | `Workshop.ViewProjectHint` | `Use 'view [project-name]' to learn more about each project.` | Workshop.cs | |
-| `Workshop.GitHubLink` | `GitHub with all projects: <a href="https://github.com/cBridges851/" target="_blank" rel="noopener noreferrer">https://github.com/cBridges851/</a>` | Workshop.cs | |
+| `Workshop.GitHubLink` | `GitHub with all projects: <a href="https://github.com/christabridges/" target="_blank" rel="noopener noreferrer">https://github.com/christabridges/</a>` | Workshop.cs | |
 | `Workshop.Project.PersonalWebsite` | The "personal website" project description (multi-line HTML) | Workshop.cs | keyed by project |
 | `Workshop.ViewWhat` | `View what? Try 'list' to see available projects.` | Workshop.cs | |
 | `Workshop.ProjectNotFound` | `Project not found. Use 'list' to see available projects.` | Workshop.cs | |

@@ -79,12 +79,12 @@ Available exits:&lt;br&gt;
     <value>Use 'view [project-name]' to learn more about each project.</value>
   </data>
   <data name="Workshop.GitHubLink" xml:space="preserve">
-    <value>GitHub with all projects: &lt;a href="https://github.com/cBridges851/" target="_blank" rel="noopener noreferrer"&gt;https://github.com/cBridges851/&lt;/a&gt;</value>
+    <value>GitHub with all projects: &lt;a href="https://github.com/christabridges/" target="_blank" rel="noopener noreferrer"&gt;https://github.com/christabridges/&lt;/a&gt;</value>
   </data>
   <data name="Workshop.Project.PersonalWebsite" xml:space="preserve">
     <value>The site you're looking at now! A text-based game style personal website to showcase my skills and interests.&lt;br&gt;
 Tech: Blazor WebAssembly, C#/.NET, HTML, CSS, JavaScript&lt;br&gt;
-GitHub Repo: &lt;a href="https://github.com/cBridges851/cBridges851.github.io/" target="_blank" rel="noopener noreferrer"&gt;https://github.com/cBridges851/cBridges851.github.io/&lt;/a&gt;&lt;br&gt;</value>
+GitHub Repo: &lt;a href="https://github.com/christabridges/christabridges.github.io/" target="_blank" rel="noopener noreferrer"&gt;https://github.com/christabridges/christabridges.github.io/&lt;/a&gt;&lt;br&gt;</value>
   </data>
   <data name="Workshop.ViewWhat" xml:space="preserve">
     <value>View what? Try 'list' to see available projects.</value>
