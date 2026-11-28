@@ -1,6 +1,6 @@
 name: Deploy static content to GitHub Pages
 env:
-  PUBLISH_DIR: MyCorner/bin/Release/net8.0/publish/wwwroot
+  PUBLISH_DIR: MyCorner/bin/Release/net10.0/publish/wwwroot
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v3.4.2
         with:
-          dotnet-version: '8.0'
+          dotnet-version: '10.0'
 
       - name: Publish
         run: dotnet publish MyCorner -c Release

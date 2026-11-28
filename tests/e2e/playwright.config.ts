@@ -14,7 +14,7 @@ export default defineConfig({
     { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
   ],
   webServer: {
-    command: 'dotnet run --project ../../MyCorner',
+    command: 'dotnet run --project ../../MyCorner -c Release',
     url: 'http://localhost:5219',
     reuseExistingServer: true,
     timeout: 120000,
