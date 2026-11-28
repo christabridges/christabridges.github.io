@@ -12,7 +12,7 @@ permissions:
 
 env:
   PROJECT_PATH: MyCorner/MyCorner.csproj
-  DOTNET_VERSION: 8.0.x
+  DOTNET_VERSION: 10.0.x
   PUBLISH_DIR: publish
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0'
+          dotnet-version: '10.0'
 
       - name: Publish Blazor WASM (Release)
         run: dotnet publish MyCorner -c Release

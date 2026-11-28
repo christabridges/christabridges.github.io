@@ -2,8 +2,8 @@
 
 ## Project
 
-- Single .NET 8 Blazor WebAssembly app in `MyCorner/` (`MyCorner.csproj`, solution `MyCorner.sln`).
-- GitHub Pages user site (`<base href="/" />`); deployed from `MyCorner/bin/Release/net8.0/publish/wwwroot`.
+- Single .NET 10 Blazor WebAssembly app in `MyCorner/` (`MyCorner.csproj`, solution `MyCorner.sln`).
+- GitHub Pages user site (`<base href="/" />`); deployed from `MyCorner/bin/Release/net10.0/publish/wwwroot`.
 
 ## Commands
 
