@@ -4,7 +4,6 @@ on:
   pull_request:
     branches: [master]
 
-# Cancel in-progress runs for the same PR when new commits are pushed
 concurrency:
   group: lighthouse-${{ github.event.pull_request.number }}
   cancel-in-progress: true
