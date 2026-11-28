@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-Upgrade the `MyCorner` Blazor WebAssembly app (and supporting CI/docs) from .NET 8 to .NET 10, so the site continues to build, run, and pass the existing Playwright E2E suite.
+Upgrade the `MyCorner` Blazor WebAssembly app (and supporting CI/docs) from .NET 8 to .NET 10, so the site continues to build, run, and pass the existing Playwright E2E suite. .NET 8 has reached its end of life, so it's recommended by Microsoft to update to a supported version. .NET 11 was released this month, but is on standard-term support, so went with .NET 10 since that's on long-term support and is the version I'm more familiar with at the moment.
 
 - **App:** `MyCorner` (Blazor WebAssembly)
 - **Current target:** `net8.0`
