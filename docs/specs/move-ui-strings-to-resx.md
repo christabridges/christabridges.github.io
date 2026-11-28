@@ -123,10 +123,10 @@ Which localizer where:
 - `TARDISConsoleRoom` additionally resolves `IStringLocalizer Room` via the factory; `Workshop` does the same.
 - `ConsoleComponent.razor` injects `IStringLocalizer<Common>` (chrome/intro all live in Common).
 - `App.razor` injects `IStringLocalizer<Common>`.
-
+****
 ### 5.4 Culture setup
 
-`Program.cs` calls `builder.Services.AddLocalization();` and sets a default culture (`en-GB`) via `CultureInfo.DefaultThreadCurrentCulture` / `DefaultThreadCurrentUICulture`. No browser-language detection is added in this spec (default English), keeping the change minimal.
+`Program.cs` calls `builder.Services.AddLocalization();`. No browser-language detection is added in this spec (default English), keeping the change minimal.
 
 ## 6. Architecture changes
 
