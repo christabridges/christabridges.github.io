@@ -41,7 +41,7 @@ Values are stored verbatim (including HTML) unless noted. `{0}`, `{1}` are compo
 
 | Proposed key | Current value (verbatim) | Source | Notes |
 |---|---|---|---|
-| `Console.HeaderTitle` | `cBridges.github.io, A Personal Website by Christa Bridges` | ConsoleComponent.razor | `<h2>` |
+| `Console.HeaderTitle` | `christabridges.github.io, A Personal Website by Christa Bridges` | ConsoleComponent.razor | `<h2>` |
 | `Console.Version` | `v2.0.0` | ConsoleComponent.razor | `<h2>` |
 | `Console.Intro` | Multi-paragraph TARDIS/Christa intro ending with the LinkedIn link | ConsoleComponent.razor | Contains HTML (`<br>`, `<a>`). Rendered as `MarkupString`. |
 | `Console.InputTitle` | `Command Input` | ConsoleComponent.razor | `title` attribute |
