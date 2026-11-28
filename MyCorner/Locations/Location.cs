@@ -13,7 +13,7 @@ namespace MyCorner.Locations {
         protected Location(IJSRuntime js, IStringLocalizerFactory stringLocalizerFactory) {
             this.js = js;
             this.StringLocalizerFactory = stringLocalizerFactory;
-            this.Common = stringLocalizerFactory.Create(typeof(Common));
+            this.Common = stringLocalizerFactory.Create(typeof(MyCorner.Resources.Common));
             commands = new();
         }
 

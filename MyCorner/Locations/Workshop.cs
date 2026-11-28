@@ -13,7 +13,7 @@ namespace MyCorner.Locations {
 
         public Workshop(IJSRuntime js, IStringLocalizerFactory stringLocalizerFactory)
             : base(js, stringLocalizerFactory) {
-            this.Room = stringLocalizerFactory.Create(typeof(Workshop));
+            this.Room = stringLocalizerFactory.Create(typeof(MyCorner.Resources.Workshop));
             Name = Room["Workshop.Name"].Value;
             Description = Room["Workshop.Description", ListKeyProjects()].Value;
             this.InitialiseCommands();
